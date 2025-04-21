@@ -9,9 +9,10 @@ export default defineConfig([
     plugins: { js }, 
     extends: ["js/recommended"],
     rules: {
-      'no-unused-vars': 'off',  // Disable unused variables check
-      'no-require-imports': 'off',  // Disable require imports check
-      'no-undef': 'off',  // Disable undefined variable check
+      "no-empty": "off",                     // Turn off the 'no-empty' rule
+    "no-useless-escape": "off",            // Turn off the 'no-useless-escape' rule
+    "no-constant-binary-expression": "off", // Turn off the 'no-constant-binary-expression' rule
+    "no-prototype-builtins": "off",  
     }
   },
   { 
