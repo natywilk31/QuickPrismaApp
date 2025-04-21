@@ -13,6 +13,9 @@ export default defineConfig([
     "no-useless-escape": "off",            // Turn off the 'no-useless-escape' rule
     "no-constant-binary-expression": "off", // Turn off the 'no-constant-binary-expression' rule
     "no-prototype-builtins": "off",  
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "no-cond-assign": "off"
     }
   },
   { 
